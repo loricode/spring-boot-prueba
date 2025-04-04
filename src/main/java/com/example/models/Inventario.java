@@ -20,8 +20,6 @@ public class Inventario {
     @JoinColumn(name =  "id_producto") 
 	public Producto producto;
 	
-	public float precio;
-	
-	public String categoria;
+	public String ubicacion;
 	
 }
